@@ -1,0 +1,121 @@
+/*!
+ * Вільна Країна
+ * Copyright 2016
+ * m-box.org.ua
+ */
+/*vsegda@ua.fm*/
+/*#EB4E1B;*/
+ body {
+  position: relative;
+}
+#rockit {
+  position:relative;
+  height:318px;
+  width:25%;
+  margin:0 auto;  
+}
+#rockit img {  
+  height:318px;
+  width:100%;
+  border:2px solid #fff;
+  position: relative;
+  object-fit: cover;  
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+#rockit img:hover {
+  transform: scale(1.25, 1.25);
+}
+#rockit2 img {
+    float: left;
+    z-index: -10;
+}
+.text-primary {
+	padding-top: 10px; 
+	font-family: 'Marmelad', sans-serif; 
+	font-size: 150% !important;
+	color: navy;
+	}
+.icon-bar{background: #337AB7;}  
+.h11 {
+	text-shadow: 3px 3px 5px black, 0 0 20px orange, 0 0 5px white; 
+	}
+.h33 {
+	text-shadow: 1px 1px 2px black, 0 0 15px black, 0 0 5px blue; 
+	}	
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid  #f15a2b;
+	}
+figure {
+  display: block;
+  position: relative;
+  height:100%;
+  width:100%;
+  overflow: hidden;  
+}
+figcaption {
+  position: absolute;
+  background: grey;
+  color: white;
+  padding: 0px 10px;
+  left: 20%; right: 20%; top: 5%; 
+  opacity: 0;
+  -webkit-transition: opacity 0.7s ease-in-out;
+  -moz-transition: opacity  0.7s ease-in-out;
+  -o-transition: opacity 0.7s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
+}
+figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  font-size: 0;
+}
+.placeholder figure {
+  display: block;
+  position: relative;
+  height:300px;
+  width:100%;
+  padding: 0px; 
+  overflow: hidden;
+}
+.placeholder figcaption {
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 0px;
+  left: 0px; right: 0px; top: 0px; 
+  height:100%;
+  width:100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity  0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.opacity:hover figcaption {
+  opacity: 0.8;
+}
+h2.h22 {
+  position: absolute; 
+  top: 10px; 
+  left: 20px; 
+  width: 90%; 
+  text-shadow: 3px 3px 5px black, 0 0 20px white, 0 0 50px white;
+  }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
