@@ -78,7 +78,13 @@ figure figcaption > a {
 	font-size: 150% !important;
 	color: navy;
 	}
-.icon-bar{background: #337AB7;}  
+.icon-bar {background: #337AB7;}  
+.aboutann {
+  position: absolute; 
+  top: 250px; 
+  left: 0; 
+  width: 100%;
+}
 .triangle {
     height: 0;
     width: 0;
