@@ -45,8 +45,13 @@ figure figcaption > a {
   font-size: 0;
 }
 */
- body {
+body {
   position: relative;
+}
+@media screen and (max-width: 992px) {
+  #contacts {
+    visibility: hidden;
+  }
 }
 #rockit {
   position:relative;
@@ -83,7 +88,13 @@ figure figcaption > a {
   position: absolute; 
   top: 250px; 
   left: 0; 
-  width: 100%;
+  width: 100%;  
+}
+.aboutann li {
+  margin: 20px;
+}
+.ts {
+  text-shadow: 1px 1px 2px #337AB7, 0 0 10px white;
 }
 .triangle {
     height: 0;
