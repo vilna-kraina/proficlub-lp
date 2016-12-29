@@ -56,7 +56,6 @@ body {
 #rockit {
   position:relative;
   height:318px;
-  width:25%;
   margin:0 auto;  
 }
 #rockit img {  
@@ -91,7 +90,7 @@ body {
   width: 100%;  
 }
 .aboutann li {
-  margin: 20px;
+  margin: 15px;
 }
 .ts {
   text-shadow: 1px 1px 2px #337AB7, 0 0 10px white;
