@@ -95,6 +95,11 @@ body {
 .ts {
   text-shadow: 1px 1px 2px #337AB7, 0 0 10px white;
 }
+#horeca {
+  padding-top: 10%;   
+  object-fit: cover;
+  height: 250px;
+}
 .triangle {
     height: 0;
     width: 0;
