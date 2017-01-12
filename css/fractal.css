@@ -81,7 +81,20 @@ body {
 	font-family: 'Marmelad', sans-serif; 
 	font-size: 150% !important;
 	color: navy;
-	}
+}
+.text-header {
+  padding-top: 10px; 
+  font-family: 'Marmelad', sans-serif; 
+  font-size: 150% !important;
+  color: #f15a2b;
+}
+.text-footer {
+  padding: 2em 0; 
+  font-family: 'Marmelad', sans-serif; 
+  font-size: 150%; 
+  color: white; 
+  vertical-align: middle;
+}
 .icon-bar {background: #337AB7;}  
 .aboutann {
   position: absolute; 
@@ -121,7 +134,7 @@ body {
 }
 .placeholder figcaption {
   position: absolute;
-  background: black;
+  background-color: black;
   color: white;
   padding: 0px;
   left: 0px; right: 0px; top: 0px; 
@@ -138,18 +151,19 @@ body {
 }
 h2.h22 {
   position: absolute; 
-  text-align: justify;
+  text-align: center;
   top: 20px; 
-  left: 20px; 
+  left: 15px; 
+  right: 15px;
   width: 90%; 
   text-shadow: 3px 3px 5px black, 0 0 20px white, 0 0 50px white;
   }
 p.h55 {
   position: absolute; 
-  text-align: justify;
+  text-align: center;
   bottom: 50px; 
-  left: 20px; 
-  right: 10px;
+  left: 15px; 
+  right: 15px;
   text-shadow: 1px 1px 2px black, 0 0 15px black, 0 0 5px white;
 }
 .navbar .navbar-nav {
