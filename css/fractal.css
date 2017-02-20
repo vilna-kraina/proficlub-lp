@@ -53,7 +53,7 @@ body {
   position: relative;
 }
 @media screen and (max-width: 992px) {
-  #contacts {
+.fullscreenonly {
     visibility: hidden;
   }
 }
@@ -93,11 +93,20 @@ body {
   color: #f15a2b;
 }
 .text-footer {
-  padding: 2em 0; 
+  padding-top: 50px; 
   font-family: 'Marmelad', sans-serif; 
   font-size: 150%; 
   color: white; 
   vertical-align: middle;
+}
+.text-b200 {
+  font-size: 200%;
+}
+.container-marmelad {
+  font-family: 'Marmelad', sans-serif; 
+  font-size: 150% !important; 
+  text-align: justify; 
+  padding: 50px;"
 }
 .icon-bar {background: #337AB7;}  
 .aboutann {
@@ -108,6 +117,24 @@ body {
 }
 .aboutann li {
   margin: 15px;
+}
+.fspar {
+	color: #000; 
+    background-color: #ffffff; 
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+@media screen and (min-width: 992px) {
+.fspar {background-image: url(../img/workplace.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    padding-top: 400px;}	
+}
+.nodecora {
+	color: white; 
+	text-decoration: none;
+	font-size: 13px;
 }
 .ts {
   text-shadow: 1px 1px 2px #337AB7, 0 0 10px white;
@@ -124,6 +151,11 @@ body {
     border-right: 100px solid transparent;
     border-bottom: 100px solid  #f15a2b;
 	}
+.footerann {
+	 max-height: 400px;
+	 min-height: 200px;
+	 background-color: #f15a2b;"
+}
 .placeholder figure {
   display: block;
   position: relative;
