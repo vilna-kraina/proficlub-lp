@@ -108,7 +108,9 @@ body {
   text-align: justify; 
   padding: 50px;"
 }
-.icon-bar {background: #337AB7;}  
+.icon-bar {
+  background: #337AB7;
+}
 .aboutann {
   position: absolute; 
   top: 250px; 
@@ -117,6 +119,7 @@ body {
 }
 .aboutann li {
   margin: 15px;
+  color: #000;
 }
 .fspar {
 	color: #000; 
